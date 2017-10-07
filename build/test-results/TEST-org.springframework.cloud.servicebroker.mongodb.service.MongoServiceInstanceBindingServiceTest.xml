@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.cloud.servicebroker.mongodb.service.MongoServiceInstanceBindingServiceTest" tests="6" failures="0" errors="0" timestamp="2016-10-21T20:51:55" hostname="longview" time="0.051">
+  <properties/>
+  <testcase name="serviceInstanceCreationFailsWithExistingInstance" classname="org.springframework.cloud.servicebroker.mongodb.service.MongoServiceInstanceBindingServiceTest" time="0.021"/>
+  <testcase name="unknownServiceInstanceDeleteCallSuccessful" classname="org.springframework.cloud.servicebroker.mongodb.service.MongoServiceInstanceBindingServiceTest" time="0.003"/>
+  <testcase name="newServiceInstanceBindingCreatedSuccessfully" classname="org.springframework.cloud.servicebroker.mongodb.service.MongoServiceInstanceBindingServiceTest" time="0.01"/>
+  <testcase name="successfullyRetrieveServiceInstanceBinding" classname="org.springframework.cloud.servicebroker.mongodb.service.MongoServiceInstanceBindingServiceTest" time="0.003"/>
+  <testcase name="serviceInstanceBindingDeletedSuccessfully" classname="org.springframework.cloud.servicebroker.mongodb.service.MongoServiceInstanceBindingServiceTest" time="0.004"/>
+  <testcase name="serviceInstanceBindingCreationFailsWithUserCreationFailure" classname="org.springframework.cloud.servicebroker.mongodb.service.MongoServiceInstanceBindingServiceTest" time="0.004"/>
+  <system-out><![CDATA[2016-10-21 14:51:55.576  INFO 7431 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [org.springframework.cloud.servicebroker.mongodb.IntegrationTestBase]: no resource found for suffixes {-context.xml, Context.groovy}.
+2016-10-21 14:51:55.577  INFO 7431 --- [    Test worker] o.s.t.c.s.DefaultTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2016-10-21 14:51:55.578  INFO 7431 --- [    Test worker] o.s.t.c.s.DefaultTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7eed8fdd, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@19d16184, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1dc291f2, org.springframework.test.context.support.DirtiesContextTestExecutionListener@158d2d58, org.springframework.test.context.transaction.TransactionalTestExecutionListener@70cdb53, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@15c34777]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
